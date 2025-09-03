@@ -1,3 +1,3 @@
 # Profilepage
 project.html
-screenshot
+
