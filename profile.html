@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #add8e6;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 800px;
+      margin: 40px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 6px; /* smaller border size */
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .profile-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #333;
+    }
+
+    h1 {
+      margin: 15px 0 5px;
+      font-size: 26px;
+    }
+
+    h2 {
+      margin: 0 0 15px;
+      font-size: 18px;
+      color: #666;
+    }
+
+    .Bio {
+      background-color: #e0f7fa;
+      text-align: center;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 6px;
+      line-height: 1.5;
+    }
+
+    .skills {
+      text-align: center;
+    }
+
+    .skills h3 {
+      margin-bottom: 15px;
+    }
+
+    .skill-boxes {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .skill {
+      padding: 10px 20px;
+      border-radius: 6px;
+      color: #fff;
+      font-weight: bold;
+      min-width: 80px;
+      text-align: center;
+    }
+
+    .html{ background-color: #306998; }
+    .css{ background-color: #e44d26; }
+    .bootstrap { background-color: #264de4; }
+    .js { background-color: #f0db4f; color: #000; }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="Photo.jpg" alt="My Photo" class="profile-img">
+
+    <h1>SAIRAM</h1>
+    <h2>Frontend Developer</h2>
+
+    <p class="Bio">
+      Hello! My name is Sairam, I'm a recent graduate from <b>MVSR Engineering College.</b><br>
+      I'm eager to apply my academic knowledge and gain practical experience while contributing to a company.<br>
+      I possess good communication and problem-solving skills.
+    </p>
+
+    <section class="skills">
+      <h3>My Skills</h3>
+      <div class="skill-boxes">
+        <div class="skill html">HTML</div>
+        <div class="skill css">CSS</div>
+        <div class="skill bootstrap">Bootstrap</div>
+        <div class="skill js">JavaScript</div>
+      </div>
+    </section>
+
+</div>
+
+</body>
+</html>
